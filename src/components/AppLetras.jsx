@@ -21,7 +21,7 @@ const {alerta,letra,datos,spinner} = useLetras();
     <p className="letra">{letra}</p>
     </>
     :
-    letra === 404 && <p className="alerta">No hay letra para esta canción</p>}
+    letra === 404 && <p className="alerta">No se ha encontrado la canción</p>}
     
     </> }    
     </main>
